@@ -6,6 +6,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Preloader from './components/Preloader';
+import Footer from './components/Footer'
 import './styles.css';
 import './App.css';
 import {
@@ -38,6 +39,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/resume' element={<Resume />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   )

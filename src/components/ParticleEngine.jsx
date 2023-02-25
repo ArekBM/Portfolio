@@ -60,6 +60,10 @@ const ParticleEngine = () => {
                         minimumValue: 0.5
                       },
                       value: 1
+                    },
+                    move: {
+                      direction: 'right',
+                      speed: 0.10,
                     }
                   }
             }}

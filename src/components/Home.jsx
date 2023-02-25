@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Typing from './Typing';
 import Content from './Content';
 import ParticleEngine from './ParticleEngine';
+import insert from '../assets/insert.png';
 
 export default function Home() {
     return (
@@ -21,12 +22,19 @@ export default function Home() {
 
                             <h1 className='heading-name'>
                                 My name is 
-                                <strong className='main-name'> Eric Miyake</strong>
+                                <strong className='main-name'> <span className='purple'>Eric Miyake</span></strong>
                             </h1>
 
                             <div style={{ padding: 50, textAlign: 'left' }}>
                                 <Typing />
                             </div>
+
+                            <Col md={5} style={{ paddingBottom: 20 }}>
+                                <img
+                                    src={insert}
+                                    style={{ maxHeight: '450px' }}
+                                />
+                            </Col>
                         </Col>
 
                     </Row>

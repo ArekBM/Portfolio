@@ -4,6 +4,13 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
+import { CgFileDocument } from 'react-icons/cg';
+import {
+    AiFillStar,
+    AiOutlineHome,
+    AiOutlineFundProjectionScreen,
+    AiOutlineUser
+} from 'react-icons/ai'
 
 
 export default function NavBar() {
@@ -28,7 +35,7 @@ export default function NavBar() {
         >
             <Container>
                 <Navbar.Brand href='/' className='d-flex'>
-                    Em
+                    <h1 className='purple'>Em.</h1>
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls='responsive-navbar-nav'
@@ -44,6 +51,7 @@ export default function NavBar() {
                     <Nav className='ms-auto' defaultActiveKey='#home'>
                         <Nav.Item>
                             <Nav.Link as={Link} to='/' onClick={() => updateExpand(false)}>
+                                <AiOutlineHome style={{ marginBottom: '2px' }} /> {' '}
                                 Home
                             </Nav.Link>
                         </Nav.Item>
@@ -54,7 +62,7 @@ export default function NavBar() {
                                 to='/about'
                                 onClick={() => updateExpand(false)}
                             >
-                                About
+                                <AiOutlineUser style={{ marginBottom: '2px' }} /> About
                             </Nav.Link>
                         </Nav.Item>
 
@@ -64,6 +72,8 @@ export default function NavBar() {
                                 to='/project'
                                 onClick={() => updateExpand(false)}
                             >
+                                <AiOutlineFundProjectionScreen
+                                    style={{ marginBottom: '2px' }} /> {' '}
                                 Projects
                             </Nav.Link>
                         </Nav.Item>
@@ -74,6 +84,8 @@ export default function NavBar() {
                                 to='/resume'
                                 onClick={() => updateExpand(false)}
                             >
+                                <CgFileDocument
+                                    style={{ marginBottom: '2px' }} /> {' '}
                                 Resume
                             </Nav.Link>
                         </Nav.Item>

@@ -12,7 +12,7 @@ export default function AboutCard() {
                     </p>
                     <br />
                     <br />
-                    I also enjoy watching movies, hiking, chess and other various strategy games!
+                    I also enjoy watching movies, hiking, chess and puzzles!
                 </blockquote>
             </Card.Body>
         </Card>

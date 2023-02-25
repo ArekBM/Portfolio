@@ -12,6 +12,7 @@ html {
     );
   
     --imp-text-color: #c770f0;
+
 }
 
 .purple {
@@ -249,6 +250,7 @@ html {
     padding: 20px !important;
     opacity: 0.8 !important;
     border-radius: 10px !important;
+    height: 250px !important;
 }
 
 .project-heading {
@@ -346,4 +348,60 @@ html {
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
     color: white;
+}
+
+.footer {
+    background-color: rgb(10, 4, 22);
+    bottom: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 8px !important;
+}
+
+.footer-copyright {
+    text-align: center !important;
+}
+
+.footer-body {
+    z-index: 1;
+    text-align: center !important;
+}
+
+@media (max-width: 767px){
+    .footer-copyright {
+        text-align: center !important;
+    }
+
+    .footer-body {
+        text-align: center !important;
+    }
+}
+
+.footer h3 {
+    font-size: 1em;
+    color: white !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+}
+
+.footer-icons {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5 !important;
+    padding: 0 !important;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #623686 !important;
+    border-color: #623686 !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #6d20c5d7 !important;
+    border-color: #6d20c5d7 !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
 }

@@ -7,8 +7,8 @@ export default function Typing() {
             options={{
                 strings: [
                     'Software Engineer',
-                    'Designer',
-                    'Animator'
+                    'Front End Developer',
+                    'Something Clever',
                 ],
                 autoStart: true,
                 loop: true,

@@ -20,7 +20,7 @@ export default function Projects() {
                             title='Build-A-Resume'
                             description='React based application to help build and design your résumé that updates in realtime. Supports image uploads and generates a PDF which you can print and download.'
                             ghLink='https://github.com/ArekBM/ResumeBuilder'
-                            demoLink='stupendous-dasik-d8337d.netlify.app'
+                            demoLink='http://stupendous-dasik-d8337d.netlify.app/'
                         />
                     </Col>
                     <Col md={4} className='project-card'>

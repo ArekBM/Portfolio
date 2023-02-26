@@ -35,7 +35,7 @@ export default function NavBar() {
         >
             <Container>
                 <Navbar.Brand href='/' className='d-flex'>
-                    <h1 className='purple'>Em.</h1>
+                    <h1 className='purple'><span className='em'>Em.</span></h1>
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls='responsive-navbar-nav'

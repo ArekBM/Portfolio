@@ -405,3 +405,7 @@ html {
     outline: none !important;
     box-shadow: none !important;
 }
+
+.em {
+    font-weight: bolder;
+}

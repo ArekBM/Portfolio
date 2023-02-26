@@ -27,7 +27,7 @@ export default function Projects() {
                         <ProjectCard
                             imgPath={PhotoCapsule}
                             title='PhotoCapsule'
-                            description='A game that tests your knowledge of history and pop culture through the lens of a camera. Built an API that reads and writes into an JSON object. Built with React and vanilla Javascript.'
+                            description='A game that tests your knowledge of history and pop culture through the lens of a camera. Built an API that reads from a folder location and creates and writes to a JSON object. Built with React and vanilla Javascript.'
                             ghLink='https://github.com/ArekBM/PhotoCapsule'
                             demoLink='https://scintillating-melba-98a2d4.netlify.app/'
                         />

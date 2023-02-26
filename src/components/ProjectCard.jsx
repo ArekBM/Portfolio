@@ -12,6 +12,15 @@ export default function ProjectCard(props) {
                 <Card.Text style={{ textAlign: 'justify' }}>
                     {props.description}
                 </Card.Text>
+                <Button 
+                    variant='primary'
+                    href={props.ghLink}
+                    target='_blank'
+                    style={{ marginLeft: '10px' }}
+                >
+                    <CgWebsite /> &nbsp;
+                    {'Github'}
+                </Button>
                 <Button
                     variant='primary'
                     href={props.demoLink}

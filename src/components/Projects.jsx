@@ -18,7 +18,7 @@ export default function Projects() {
                         <ProjectCard
                             imgPath={BuildA}
                             title='Build-A-Resume'
-                            description='React based application to help build and design your résumé that updates in realtime. Supports image uploads and generates a PDF which you can print and download.'
+                            description='React based application to help build and design your résumé that updates in realtime. Supports image uploads and generates a PDF which you can print and download. I used this to build my current résumé. '
                             ghLink='https://github.com/ArekBM/ResumeBuilder'
                             demoLink='http://stupendous-dasik-d8337d.netlify.app/'
                         />
@@ -27,7 +27,7 @@ export default function Projects() {
                         <ProjectCard
                             imgPath={PhotoCapsule}
                             title='PhotoCapsule'
-                            description='A game that tests your knowledge of history and pop culture through the lens of a camera. Built an API that reads from a folder location and creates and writes to a JSON object. Built with React and vanilla Javascript.'
+                            description='A game where you are presented with a series of intriguing photos from different eras and your goal is to guess which year it was taken. Written with React and Javascript. I setup an API with MongoDB which will insert and store scores and a leaderboard that calls and displays the top 10 of the day.'
                             ghLink='https://github.com/ArekBM/PhotoCapsule'
                             demoLink='https://scintillating-melba-98a2d4.netlify.app/'
                         />

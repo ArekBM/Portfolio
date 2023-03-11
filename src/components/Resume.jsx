@@ -4,11 +4,15 @@ import ParticleEngine from './ParticleEngine';
 import Button from 'react-bootstrap/Button';
 import { AiOutlineDownload } from 'react-icons/ai';
 import pdf from '../assets/Resume2023.pdf';
-import { Document, Page } from 'react-pdf';
+import { Document, Page, pdfjs } from 'react-pdf';
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+import 'react-pdf/dist/esm/Page/TextLayer.css';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
 
 export default function Resume() {
 
-    const url = 'https://drive.google.com/file/d/1Zu1XjZ-PRz9qI_ii7A_cedx5zmAwW8DV/view?usp=share_link'
+    const url = 'https://raw.githubusercontent.com/ArekBM/Portfolio/master/src/assets/Resume2023.pdf';
 
     const [width, setWidth] = useState(1200);
     const [numPages, setNumPages ] = useState(null)
@@ -22,6 +26,7 @@ export default function Resume() {
     function onDocumentSuccess({numPages}){
         setNumPages(numPages)
     }
+
 
     return(
         <div>
@@ -39,7 +44,7 @@ export default function Resume() {
                     </Button>
                 </Row>
                 <Row className='resume'>
-                    <Document file={pdf} className='d-flex justify-content-center' onLoadSucess={onDocumentSuccess}>
+                    <Document file={url} className='d-flex justify-content-center' onLoadSucess={onDocumentSuccess} onLoadError={console.error} >
                         <Page pageNumber={pageNumber} scale={width > 786 ? 1.7 : 0.6} />
                     </Document>
                 </Row>

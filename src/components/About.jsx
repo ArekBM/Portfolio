@@ -32,7 +32,7 @@ export default function About() {
                     </Col>
                 </Row>
                 <h1 className='projet-heading'>
-                    Professional <strong className='purple'>Skills </strong>
+                    Professional <strong className='purple'>Skillset </strong>
                 </h1>
 
                 <TechSkills />

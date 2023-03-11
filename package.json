@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-parallax-tilt": "^1.7.107",
+    "react-pdf": "^6.2.2",
     "react-router-dom": "^6.8.1",
     "react-tsparticles": "^2.9.3",
     "sort-by": "^1.2.0",

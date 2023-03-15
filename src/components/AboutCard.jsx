@@ -13,7 +13,7 @@ export default function AboutCard() {
                     </p>
                     <br />
                     <br />
-                    I also enjoy watching movies, hiking, chess and puzzles!
+                    Apart from coding I'm an avid chess player and have been documenting my journey to reach a title in the sport. Commenting on my thought process during games and tips to help lower rated players learn as well. 
                 </blockquote>
             </Card.Body>
         </Card>

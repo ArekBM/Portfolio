@@ -3,7 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Typing from './Typing';
 import Content from './Content';
 import ParticleEngine from './ParticleEngine';
-import insert from '../assets/insert.png';
+import Image from '../assets/Image.png';
+import Tilt from 'react-parallax-tilt'
 
 export default function Home() {
     return (
@@ -28,15 +29,17 @@ export default function Home() {
                             <div style={{ padding: 50, textAlign: 'left' }}>
                                 <Typing />
                             </div>
-
-                            <Col md={5} style={{ paddingBottom: 20 }}>
-                                <img
-                                    src={insert}
+                            </Col>
+                        <Col md={5} style={{ paddingBottom: 20 }} className='myAvatar'>
+                            <Tilt>
+                                <img 
+                                    src={Image}
+                                    className='img-fluid'
+                                    alt='avatar'
                                     style={{ maxHeight: '450px' }}
                                 />
-                            </Col>
+                            </Tilt>
                         </Col>
-
                     </Row>
                     <Content />
                 </Container>

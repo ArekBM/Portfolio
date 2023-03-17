@@ -37,7 +37,7 @@ export default function Projects() {
                         <ProjectCard
                             imgPath={KitchenSink}
                             title='KitchenSink'
-                            description='Full stack twitter clone website built in Django and uses sqlite3. Supports profile pages with image uploads, likes, and posts and edits. Hosted on Railway and written in vanilla Javascript, HTML and Python.'
+                            description='Full stack twitter clone website built in Django and uses sqlite3. Supports profile pages with image uploads, likes, posts and edits. Hosted on Railway and written in vanilla Javascript, HTML and Python.'
                             ghLink='https://github.com/ArekBM/KitchenSink'
                             demoLink='https://django-server-production-550b.up.railway.app/'
                         />

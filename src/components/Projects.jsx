@@ -28,7 +28,7 @@ export default function Projects() {
                         <ProjectCard
                             imgPath={PhotoCapsule}
                             title='PhotoCapsule'
-                            description='A game where you are presented with a series of intriguing photos from different eras and your goal is to guess which year it was taken. Written with React and Javascript. I setup an API with MongoDB which will insert and store scores and a leaderboard that calls and displays the top 10 of the day.'
+                            description='A web based game where you are presented with a series of intriguing photos from different eras and your goal is to guess which year it was taken. Written with React and Javascript and hosted on netlify. I setup an API with MongoDB which will insert and store scores and a leaderboard that calls and displays the top 10 of the day.'
                             ghLink='https://github.com/ArekBM/PhotoCapsule'
                             demoLink='https://scintillating-melba-98a2d4.netlify.app/'
                         />
@@ -37,7 +37,7 @@ export default function Projects() {
                         <ProjectCard
                             imgPath={KitchenSink}
                             title='KitchenSink'
-                            description='Full stack website built in Django and sqlite3. Supports profile pages with image uploads, likes, and posts and edits. Hosted on Railway and written in vanilla Javascript, HTML and Python.'
+                            description='Full stack twitter clone website built in Django and uses sqlite3. Supports profile pages with image uploads, likes, and posts and edits. Hosted on Railway and written in vanilla Javascript, HTML and Python.'
                             ghLink='https://github.com/ArekBM/KitchenSink'
                             demoLink='https://django-server-production-550b.up.railway.app/'
                         />

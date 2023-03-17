@@ -37,8 +37,9 @@ export default function Projects() {
                         <ProjectCard
                             imgPath={KitchenSink}
                             title='KitchenSink'
-                            description='A social network site built in Django which supports creating users, posts, likes, unlikes and edits. Built with python, Bootstrap, vanilla Javascript and HTML.'
+                            description='Full stack website built in Django and sqlite3. Supports profile pages with image uploads, likes, and posts and edits. Hosted on Railway and written in vanilla Javascript, HTML and Python.'
                             ghLink='https://github.com/ArekBM/KitchenSink'
+                            demoLink='https://django-server-production-550b.up.railway.app/'
                         />
                     </Col>
                 </Row>

@@ -421,3 +421,9 @@ html {
 .em {
     font-weight: bolder;
 }
+
+.contact {
+    text-decoration: none;
+    color: white;
+    top: 12px;
+}

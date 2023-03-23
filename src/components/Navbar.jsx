@@ -89,6 +89,11 @@ export default function NavBar() {
                                 Resume
                             </Nav.Link>
                         </Nav.Item>
+                        <Nav.Item>
+                            <a href='mailto:eric.bmiyake@gmail.com' className='contact' >
+                                Contact
+                            </a>
+                        </Nav.Item>
 
 
                     </Nav>

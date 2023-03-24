@@ -10,7 +10,8 @@ import {
     AiOutlineHome,
     AiOutlineFundProjectionScreen,
     AiOutlineUser
-} from 'react-icons/ai'
+} from 'react-icons/ai';
+import { GrContactInfo } from 'react-icons/gr';
 
 
 export default function NavBar() {
@@ -90,9 +91,13 @@ export default function NavBar() {
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <a href='mailto:eric.bmiyake@gmail.com' className='contact' >
-                                Contact
-                            </a>
+                            <div className='nav-link'>
+                                <AiFillStar
+                                    style={{ marginBottom: '2px', color: 'white' }}  /> {' '}
+                                <a href='mailto:eric.bmiyake@gmail.com' className='contact' >
+                                    Contact
+                                </a>
+                            </div>
                         </Nav.Item>
 
 

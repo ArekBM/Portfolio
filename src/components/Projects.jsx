@@ -49,6 +49,7 @@ export default function Projects() {
                             title='MinesweeperAI'
                             description='A minesweeper AI built in python using propisitional logic to determine mines and safe squares and marks accordingly. '
                             ghLink='https://github.com/ArekBM/minesweeperAI'
+                            demoLink=''
                         />
                     </Col>
                 </Row>

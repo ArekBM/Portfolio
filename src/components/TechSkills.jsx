@@ -16,7 +16,7 @@ import {
 
 export default function TechSkills() {
     return(
-        <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
+        <Row style={{ display: 'flex', justifyContent: 'center', padding: '20px', alignItems: 'center', margin: 'auto' }}>
             <Col xs={3} md={2} className='tech-icons'>
                 <DiJavascript1 />
             </Col>

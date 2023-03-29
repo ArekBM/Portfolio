@@ -32,7 +32,7 @@ export default function Resume() {
         <div>
             <Container fluid className='resume-section'>
                 <ParticleEngine />
-                <Row style={{ justifyContent: 'center', position: 'relative' }}>
+                <Row style={{ justifyContent: 'center', position: 'relative', paddingBottom: '50px' }}>
                     <Button
                         variant='primary'
                         href={pdf}

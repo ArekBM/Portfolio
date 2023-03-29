@@ -9,7 +9,8 @@ import {
     AiFillStar,
     AiOutlineHome,
     AiOutlineFundProjectionScreen,
-    AiOutlineUser
+    AiOutlineUser,
+    AiFillGithub
 } from 'react-icons/ai';
 import { GrContactInfo } from 'react-icons/gr';
 
@@ -92,10 +93,10 @@ export default function NavBar() {
                         </Nav.Item>
                         <Nav.Item>
                             <div className='nav-link'>
-                                <AiFillStar
+                                <AiFillGithub
                                     style={{ marginBottom: '2px', color: 'white' }}  /> {' '}
-                                <a href='mailto:eric.bmiyake@gmail.com' className='contact' >
-                                    Contact
+                                <a href='https://github.com/ArekBM' target='_blank' className='contact' >
+                                    Github
                                 </a>
                             </div>
                         </Nav.Item>

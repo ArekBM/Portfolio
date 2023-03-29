@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { AiFillGithub } from 'react-icons/ai';
 import { CgWebsite } from 'react-icons/cg';
 
 export default function ProjectCard(props) {
@@ -18,7 +19,7 @@ export default function ProjectCard(props) {
                     target='_blank'
                     style={{ marginLeft: '10px' }}
                 >
-                    <CgWebsite /> &nbsp;
+                    <AiFillGithub /> &nbsp;
                     {'Github'}
                 </Button>
                 <Button

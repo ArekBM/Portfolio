@@ -9,7 +9,7 @@ export default function Content() {
                 <Row>
                     <Col md={8} className='home-about-description'>
                         <h1 style={{ fontSize: '2.6em' }}>
-                            A <span className='purple'>Little</span> about me...
+                            A <span className='purple'>little</span> about me...
                         </h1>
                         <p className='home-about-body'>
                             After working for companies such as Apple and Dyson in sales as well technical roles, I achieved several accolades including top salesman and most improved technician in a six month quarter. 

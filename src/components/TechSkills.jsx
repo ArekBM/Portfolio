@@ -8,7 +8,7 @@ import {
     DiPython,
     DiGit,
     DiBootstrap,
-    DiGithub,
+    DiPostgresql,
     DiSass,
     DiNpm
 
@@ -28,7 +28,7 @@ export default function TechSkills() {
                 <DiNodejs />
             </Col>
             <Col xs={3} md={2} className='tech-icons'>
-                <SiSqlite />
+                <DiPostgresql />
             </Col>
             <Col xs={3} md={2} className='tech-icons'>
                 <DiPython />

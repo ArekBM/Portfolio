@@ -12,7 +12,7 @@ export default function Content() {
                             A <span className='purple'>little</span> about me...
                         </h1>
                         <p className='home-about-body'>
-                            After working for companies such as Apple and Dyson in sales as well technical roles, I achieved several accolades including top salesman and most improved technician in a six month quarter. 
+                            During my time at Apple and Dyson I worked in sales as well technical roles, I achieved several accolades including top salesman and most improved technician in a six month quarter. 
                             I felt like I accomplished what I needed to do in the retail space. Also, there were many itches retail simply couldn't scratch. Then I discovered programming. 
                             <br />
                             <br />

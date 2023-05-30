@@ -25,7 +25,7 @@ export default function Content() {
                             <br />
                             <br />The technologies I've been working with recently are
                             <i>
-                                <b className='purple'> Javascript, Python, React, and Node.js</b>
+                                <b className='purple'> TypeScript, Python, React, and Node.js</b>
                             </i>
                         </p>
                     </Col>

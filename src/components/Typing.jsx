@@ -8,7 +8,7 @@ export default function Typing() {
                 strings: [
                     'Software Engineer',
                     'Front End Developer',
-                    'Insert Something Clever',
+                    '*Insert Something Clever',
                 ],
                 autoStart: true,
                 loop: true,

@@ -6,6 +6,7 @@ import ParticleEngine from './ParticleEngine';
 import PhotoCapsule from '../assets/PhotoCapsule.png';
 import KitchenSink from '../assets/KitchenSink.jpg'
 import folder from '../assets/folder.png';
+import thumbnail from '../assets/thumbnail.png';
 
 export default function Projects() {
     return(
@@ -16,6 +17,15 @@ export default function Projects() {
                     My Recent <strong className='purple'>Projects </strong>
                 </h1>
                 <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+                    <Col md={4} className='project-card'>
+                        <ProjectCard
+                            imgPath={thumbnail}
+                            title='Thumbnail Generator'
+                            description='T3 fullstack project which utilizes Next.js, TypeScript, Tailwind, tRPC and NextAuth.js. Uses AI to generate an thumbnail based on a prompt you input. Hosted on AWS services and integrated with Stripe.'
+                            ghLink='https://github.com/ArekBM/thumbnailgen'
+                            demoLink='https://main.d2nibnnfhe4wtq.amplifyapp.com/'
+                        />
+                    </Col>
                     <Col md={4} className='project-card'>
                         <ProjectCard
                             imgPath={BuildA}

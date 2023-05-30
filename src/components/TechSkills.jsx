@@ -13,7 +13,7 @@ import {
     DiNpm
 
 } from 'react-icons/di';
-import { SiVite, SiSqlite } from 'react-icons/si';
+import { SiVite, SiSqlite, SiTailwindcss, SiTypescript } from 'react-icons/si';
 
 export default function TechSkills() {
     return(
@@ -34,7 +34,7 @@ export default function TechSkills() {
                 <DiPython />
             </Col>
             <Col xs={3} md={2} className='tech-icons'>
-                <DiGit />
+                <SiTypescript />
             </Col>
             <Col xs={3} md={2} className='tech-icons'>
                 <DiBootstrap />
@@ -46,7 +46,7 @@ export default function TechSkills() {
                 <DiNpm />
             </Col>
             <Col xs={3} md={2} className='tech-icons'>
-                <DiSass />
+                <SiTailwindcss />
             </Col>
         </Row>
     )

@@ -11,7 +11,7 @@ html {
       rgba(12, 10, 22, 0.863)
     );
   
-    --imp-text-color: #c770f0;
+    --imp-text-color: #53b7ea;
 
 }
 
@@ -55,7 +55,7 @@ html {
 
 .navbar-toggler span {
     display: block !important;
-    background-color: #be50f4 !important;
+    background-color: #53b7ea !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -145,7 +145,7 @@ html {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background-color: #c95bf5;
+    background-color: #53b7ea;
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -244,7 +244,7 @@ html {
 }
 
 .project-card-view {
-    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+    box-shadow: 0 4px 5px 3px rgba(83, 183, 234, 0.459) !important;
     background-color: transparent !important;
     opacity: 0.9 !important;
     transition: all 0.4s ease 0s !important;
@@ -255,7 +255,7 @@ html {
 .project-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+    box-shadow: 0 4px 4px 5px rgba(83, 183, 234, 0.561) !important;
 }
 
 .card-img-top {
@@ -305,13 +305,13 @@ html {
 
 .Typewriter__wrapper {
     font-size: 2.2em;
-    color: #be6adf;
+    color: #53b7ea;
     font-weight: 600;
 }
 
 .Typewriter__cursor {
     font-size: 2.4em;
-    color: #b562d6;
+    color: #53b7ea;
 }
 
 .about-section {
@@ -327,12 +327,12 @@ html {
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
-    border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    border: 1.7px solid rgba(54, 122, 185, 0.637) !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
     display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    box-shadow: 4px 5px 4px 3px rgba(83, 183, 234, 0.137) !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
 }
@@ -346,7 +346,7 @@ html {
 .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+    border: 2.2px solid rgba(83, 183, 234, 0.883) !important;
 }
 
 .tech-icon-images {
@@ -403,14 +403,14 @@ html {
 
 .btn-primary {
     color: #fff !important;
-    background-color: #623686 !important;
-    border-color: #623686 !important;
+    background-color: #367ab9 !important;
+    border-color: #367ab9 !important;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #6d20c5d7 !important;
-    border-color: #6d20c5d7 !important;
+    background-color: #3a589a !important;
+    border-color: #3a589a !important;
 }
 
 .btn:focus {

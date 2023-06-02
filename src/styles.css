@@ -261,8 +261,9 @@ html {
 .card-img-top {
     padding: 20px !important;
     opacity: 0.8 !important;
-    border-radius: 10px !important;
-    height: 250px !important;
+    border-radius: 25px !important;
+    max-width: 100% !important;
+    height:  !important;
 }
 
 .project-heading {

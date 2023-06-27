@@ -4,6 +4,7 @@ import AboutCard from './AboutCard';
 import TechSkills from './TechSkills';
 import ParticleEngine from './ParticleEngine';
 import Piece from '../assets/piece.png';
+import GitHub from './Github';
 
 export default function About() {
     return(
@@ -40,7 +41,7 @@ export default function About() {
                 </h1>
 
                 <TechSkills />
-                
+                <GitHub />
             </Container>
         </Container>
     )

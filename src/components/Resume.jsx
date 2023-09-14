@@ -12,7 +12,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 export default function Resume() {
 
-    const url = 'https://raw.githubusercontent.com/ArekBM/Portfolio/master/src/assets/Resume2023.pdf';
+    const url = 'https://raw.githubusercontent.com/ArekBM/Portfolio/master/src/assets/emiyake.pdf';
 
     const [width, setWidth] = useState(1200);
     const [numPages, setNumPages ] = useState(null)

@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import ParticleEngine from './ParticleEngine';
 import Button from 'react-bootstrap/Button';
 import { AiOutlineDownload } from 'react-icons/ai';
-import pdf from '../assets/Resume2023.pdf';
+import pdf from '../assets/emiyake.pdf';
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';

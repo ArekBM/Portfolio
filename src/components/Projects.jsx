@@ -8,6 +8,7 @@ import KitchenSink from '../assets/KitchenSink.jpg'
 import folder from '../assets/folder.png';
 import thumbnail from '../assets/thumbnail.png';
 import portfolio2 from '../assets/contact-illustration.svg'
+import ticketme from '../assets/ticket-me.png'
 
 export default function Projects() {
     return(
@@ -18,13 +19,22 @@ export default function Projects() {
                     My Recent <strong className='purple'>Projects </strong>
                 </h1>
                 <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
-                <Col md={4} className='project-card'>
+                    <Col md={4} className='project-card'>
                         <ProjectCard
                             imgPath={portfolio2}
                             title='Portfolio 2.0'
                             description='Built in React and supports EmailJS and multiple new animations.'
                             ghLink='https://github.com/ArekBM/Portfolio-2.0'
                             demoLink='https://playful-marigold-f29c28.netlify.app/'
+                        />
+                    </Col>
+                    <Col md={4} className='project-card'>
+                        <ProjectCard
+                            imgPath={ticketme}
+                            title='Ticket-me'
+                            description='Full stack application with Next.js as the front-end and uses MongoDB as the back-end with full CRUD utility.'
+                            ghLink='https://github.com/ArekBM/ticketme'
+                            demoLink='https://ticketme-arekbm.vercel.app/'
                         />
                     </Col>
                     <Col md={4} className='project-card'>

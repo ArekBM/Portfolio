@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import ParticleEngine from './ParticleEngine';
 import Button from 'react-bootstrap/Button';
 import { AiOutlineDownload } from 'react-icons/ai';
-import pdf from '../assets/2024Res.pdf';
+import pdf from '../assets/sweRes.pdf';
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
@@ -12,7 +12,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 export default function Resume() {
 
-    const url = 'https://raw.githubusercontent.com/ArekBM/Portfolio/master/src/assets/2024Res.pdf';
+    const url = 'https://raw.githubusercontent.com/ArekBM/Portfolio/master/src/assets/sweRes.pdf';
 
     const [width, setWidth] = useState(1200);
     const [numPages, setNumPages ] = useState(null)
